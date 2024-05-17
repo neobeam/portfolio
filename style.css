@@ -1,0 +1,192 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+body{
+  position: relative;  
+}
+
+section{
+  padding: 10px 0;    
+  padding-bottom: 70px;
+}
+
+/* hero-section */
+.hero-section {
+  position: relative;
+  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.7)),
+    url("img/HeroBackground.jpg");
+  height: 100vh;
+  width: 100vw;  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* profile-picture */
+.profile-picture{  
+  height: 25vh;  
+  max-height: 300px;
+  border-radius: 50%;
+  border: 10px solid rgba(0,0,0,0.3);    
+}
+
+.mySetup{
+  max-width: 700px;  
+  width:100%;
+}
+
+/* header (profile in .hero-section) */
+header#home{
+  margin-top: 25vh;
+  color:white;
+  text-align: center;
+  text-shadow:2px 2px 5px rgb(80,0,0);  
+}
+
+/* navbar color */
+.scroll-top .navbar {
+  background-color: rgba(30,144,255,0.7) !important;  
+}
+
+/* a links */
+a:active {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: underline;   
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;  
+}
+
+/* section title fonts*/
+h2{
+  text-align: center;
+  color: white;
+  margin-top: 2%;
+  padding: 5%;
+  font-size: 250%;
+}
+
+/* carousel */
+.carousel-item img{
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+.carousel-item:after {
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.3);
+}
+.carousel-caption{
+  z-index:1;
+}
+
+/* certificate icons */
+.certificate-icons {
+  width: 200px;
+}
+
+#matching_game{
+  width:200px;
+}
+
+#eight_ball{
+  width:150px;
+}
+
+#words_of_encouragement{
+  width:150px;
+}
+
+/* skill-icons */
+.skill-icons {
+  width: 150px;
+}
+/* section paragraphs */
+#projects-section p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color:white;  
+}
+#certificates-section p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color:white;  
+}
+#skills-section p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color:white;  
+}
+#contact-section p {  
+  margin-bottom: 30px;
+  font-size: 30px;
+  color:white;
+}
+#mission-section p {  
+  margin-top: 30px;  
+  color:white;
+}
+
+/* contact-icons */
+.contact-icons {
+  color: white;
+  font-size: 5em;
+  text-align: center;  
+}
+i {
+  color: white;
+}
+
+#inspiration-section h5{
+  font-size:2.1vh;
+}
+#inspiration-section p{
+  font-size:1.5vh;
+}
+
+/* section backgrounds */
+#projects-section {
+  background-color: darkgrey;
+}
+#mission-section {
+  background-color: grey;
+}
+#skills-section {
+  background-color: darkgrey;
+}
+#certificates-section{
+  background-color: grey;
+}
+#inspiration-section {
+  background-color: darkgrey;     
+}
+#contact-section {
+  background-color: grey;   
+  padding-bottom: 20px !important;
+}
+
+/* footer */
+footer {
+  background-color: rgba(255,255,0,0.7);  
+  font-weight: 700;  
+  text-align: center;
+}
+
+/* a href target */
+#projects-target,
+#mission-target, 
+#skills-target,
+#certificates-target,
+#inspiration-target,
+#contact-target{
+  position: relative;
+  top: -66px;
+}
+

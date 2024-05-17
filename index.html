@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Welcome to YJ's Portfolio Page</title>
+  <!--Bootstrap Link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!--Bootstrap Icon Link-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!--Custom Style Sheet-->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="scroll-top" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+    <div class="container">
+      <!--Navbar Brand-->
+      <a href="#top" class="navbar-brand">
+        <i class="bi bi-house-door"></i>
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--Links-->
+      <div class="collapse navbar-collapse" id="nav-collapse">
+        <div class="navbar-nav ms-auto">
+          <a href="#projects-target" class="nav-link">Projects</a>
+          <a href="#mission-target" class="nav-link">Mission</a>
+          <a href="#skills-target" class="nav-link">Skills</a>
+          <a href="#certificates-target" class="nav-link">Certificates</a>
+          <a href="#inspiration-target" class="nav-link">Inspiration</a>
+          <a href="#contact-target" class="nav-link">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--Hero Section-->
+  <section class="hero-section">
+    <header id="home">
+      <img src="img/Profile.png" alt="YJ's Profile" class="profile-picture">
+      <h1 class="display-2">YJ Kim </h1>
+      <h4><em>(He/Him)</em></h4>
+      <h3><span class="text-muted">Imagination is more important than knowledge.</span></h3>
+    </header>
+  </section>
+
+  <!-- Projects section -->
+  <section id="projects-section">
+    <div id="projects-target"></div>
+    <h2>Projects</h2>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="https://milestone-ask-the-magic-8-ball-neobeam68.coding-for-web-spring-23.repl.co"><img id="eight_ball" src="img/eight ball.png"></a>
+          <p>Magic 8 Ball</p>
+        </div>
+        <div class="col-md-4">
+          <a href="https://milestone-words-of-encouragement-neobeam68.coding-for-web-spring-23.repl.co"><img id="words_of_encouragement" src="img/words of encouragement.png"></a>
+          <p>Words of Encouragement</p>
+        </div>
+        <div class="col-md-4">
+          <a href="https://final-portfolio-project-match-game-neobeam68.coding-for-web-spring-23.repl.co"><img id="matching_game" src="img/matching game.png"></a>
+          <p>Matching Game</p>
+        </div>
+    </div>
+  </section>
+  
+
+  <!-- Mission section -->
+  <section id="mission-section">
+    <div id="mission-target"></div>
+    <h2>My Mission</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-img-responsive mx-auto my-auto">
+          <img src="img/mySetup.jpg" class="mySetup" alt="mySetup">
+        </div>
+        <div class="col-lg-6 col-md-12 mx-auto my-auto">
+          <p style="font-size:1.6rem;">My Mission is to be a full-stack web developer. I have a passion in world-wide-web
+            technologies and its culture since I was a kid. I will never forget the feelings that I felt when I surfed
+            internet for the first time. It is amaizing that the whole world can be connected through the web sharing
+            and working together. Moreover, I think web is the future because we watch movies, we shop and we run most
+            of applicaitions and softwares on web environment now. I am excited to be a web developer and make the world
+            better place! &nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Skills section -->
+  <section id="skills-section">
+    <div id="skills-target"></div>
+    <h2>Skills</h2>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="skill-icons"
+            alt="html 5 icon">
+          <p>HTML 5</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="skill-icons"
+            alt="CSS icon">
+          <p>CSS</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+            class="skill-icons" alt="bootstrap icon">
+          <p>Bootstrap</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            class="skill-icons" alt="Javascript icon">
+          <p>Java Script</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates section -->
+    <section id="certificates-section">
+      <div id="certificates-target"></div>
+        <h2>Certificates</h2>
+        <div class="container text-center">
+          <div class="row">            
+            <div class="col-md-6">
+              <img src="img/html_badge.png" class="certificate-icons" alt="html badge icon">  
+              <p>Frontend Specialist</p>
+            </div>  
+            <div class="col-md-6">              
+              <img src="img/network.png" class="certificate-icons" alt="network icon">
+              <p>Network Engineer</p>
+            </div>  
+           </div>
+        </div>
+    </section>
+
+  <!--Inspiration section-->
+  <section id="inspiration-section">
+    <div id="inspiration-target"></div>
+    <div class="container">
+      <h2>Inspirataion</h2>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/SteveJobs.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5>Innovation distinguishes between a leader and a follower.</h5>
+              <p>Steve Jobs</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Edison.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5>A genius is often merely a talented person who has done all of his or her homework.</h5>
+              <p>Thomas Edison</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/WaltDisney.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5>If you can dream it, you can do it.</h5>
+              <p>Walt Disney</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact-section">
+    <div id="contact-target"></div>
+    <h2>Contact</h2>
+    <div class="contact-icons">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="https://www.instagram.com/neobeam/"> <i class="bi bi-instagram"></i></a>
+            <p>Instagram</p>
+          </div>
+          <div class="col-md-4">
+            <a href="https://www.linkedin.com/in/yj-kim-16045a241"><i class="bi bi-linkedin"></i></a>
+            <p>Linkedin</p>
+          </div>
+          <div class="col-md-4">
+            <a href="mailto: neobeam68@gmail.com"><i class="bi bi-envelope"></i></a>
+            <p>E-Mail</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <footer>
+    © YJ Kim 2023
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
